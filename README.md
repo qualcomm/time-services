@@ -6,7 +6,7 @@
 ### 1. Download and Install qmi-framework
 Follow the instructions from the repository to compile and install qmi-framework:
 ```sh
-https://github.com/quic/qmi-framework/
+https://github.com/qualcomm/qmi-framework/
 ```
 ### 2. Navigate to the project directory:
 ```sh

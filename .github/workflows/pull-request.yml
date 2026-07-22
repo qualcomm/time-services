@@ -17,7 +17,7 @@ jobs:
           GITHUB_BASE_REF: ${{ github.base_ref }}
         run: |
           if [ "$GITHUB_HEAD_REF" != "development" ] && [ "$GITHUB_BASE_REF" == "main" ]; then
-            echo "Create a pull request to quic/time-services:development branch"
-            echo "Pull requests to quic/time-services:main branch are only allowed from quic/time-services:development branch."
+            echo "Create a pull request to qualcomm/time-services:development branch"
+            echo "Pull requests to qualcomm/time-services:main branch are only allowed from qualcomm/time-services:development branch."
             exit 1
           fi

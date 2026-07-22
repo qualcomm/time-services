@@ -45,7 +45,7 @@ jobs:
             bash -c "
               apt-get update && \
               apt-get install -y git automake libtool build-essential libglib2.0-dev pkg-config && \
-              git clone --branch v0.1.3 --depth 1 https://github.com/quic/qmi-framework.git qmi-framework && \
+              git clone --branch v0.1.3 --depth 1 https://github.com/qualcomm/qmi-framework.git qmi-framework && \
               cd qmi-framework && \
               chmod +x build_script.sh && \
               ./build_script.sh --host aarch64-linux-gnu
